@@ -7,7 +7,7 @@ const Header = () => {
         <header className="Header">
             <div className="Header-Inner">
                 <a href="index.html" className="Header-LogoContainer">
-                    <img src={Logo} className="Header-Logo"/>
+                    <img src={Logo} alt="Logo" className="Header-Logo"/>
                 </a>
                 <div className="Header-NavHamburger">
                     <div className="Header-NavHamburgerLine"></div>
@@ -19,7 +19,6 @@ const Header = () => {
                     <a href="events.html" className="Header-NavItem">Events</a>
                 </nav>
             </div>
-
         </header>
     );
 }
